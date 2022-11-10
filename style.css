@@ -1,0 +1,119 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Henny Penny';
+}
+
+.content{
+    height: auto;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 300px;
+}
+
+
+#title{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    margin-top: 150px;
+}
+    
+
+#inputText{
+    width: 350px;
+    height: 50px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+    border: 3px solid black;
+    border-radius: 15px;
+    color: darkred;
+}
+
+.intro{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50 20px;
+    
+}
+
+.video-container{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    position: absolute;
+    object-fit: cover;
+}
+
+#addToDo{
+    height: 50px;
+    width: 5%;
+    border: 2px solid black;
+    border-radius: 10px;
+    vertical-align: middle;
+    font-size: 20px;
+    font-weight: bolder;
+    outline: none;
+    cursor: pointer;
+    background-color: yellowgreen;
+    color: darkred;
+    text-align: center;
+    
+}
+
+#addToDo:active {
+    background: red;
+    color: white;
+}
+
+#addToDo:hover{
+    opacity: 0.8;
+}
+
+#clearToDo{
+    height: 50px;
+    width: 5%;
+    border: 2px solid black;
+    border-radius: 10px;
+    vertical-align: middle;
+    font-size: 20px;
+    font-weight: bolder;
+    outline: none;
+    cursor: pointer;
+    background-color: lightsalmon;
+    color: darkred;
+    text-align: center;
+}
+
+#clearToDo:active {
+    background: red;
+    color: white;
+}
+
+#clearToDo:hover{
+    opacity: 0.8;
+}
+
+.paragraph-styling{
+    margin: 0;
+    cursor: pointer;
+    font-size: 50px;
+    color: darkred;
+    text-transform: capitalize;
+}
+
+.to-dos{
+    margin-top: 25px;
+}
