@@ -1,8 +1,8 @@
-# to-do-list
-## Projenin Amacı
-*Javascriptte listeleme yapmak* <br/>
+# TO DO LIST
+## The goal of the project
+*The aim of the project is to list objects with Javascript.* <br/>
 
-**İçerik** <br/>
-Buton üzerine yazıların eklenmesi ve silinmesi 
+**Content of the project** <br/>
+This project lists with Javascript, shows the functions of writing, adding, deleting and crossing out the text on the button. 
 
 ![TODO gif](TODO.gif)
